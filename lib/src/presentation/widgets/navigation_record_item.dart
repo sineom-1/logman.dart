@@ -26,16 +26,19 @@ class NavigationRecordItem extends StatelessWidget {
     IconData icon;
     Color color;
 
-    switch (action) {
+  switch (action) {
       case NavigationAction.push:
         icon = Icons.arrow_forward;
         color = Colors.green;
+        break;
       case NavigationAction.pop:
         icon = Icons.arrow_back;
         color = Colors.red;
+        break;
       case NavigationAction.replace:
         icon = Icons.swap_horiz;
         color = Colors.grey.shade900;
+        break;
       default:
         icon = Icons.remove;
         color = Colors.grey;
