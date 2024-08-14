@@ -71,7 +71,6 @@ class _LogmanDashboardPageState extends State<LogmanDashboardPage>
         bottom: TabBar(
           controller: _tabController,
           isScrollable: true,
-          tabAlignment: TabAlignment.center,
           onTap: (value) => setState(() => currentIndex = value),
           // Update currentIndex value
           tabs: [
