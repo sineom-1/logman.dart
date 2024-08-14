@@ -4,7 +4,7 @@ version: 0.0.20
 homepage: https://github.com/Sorcel-Tech/logman.dart
 
 environment:
-  sdk: '>=2.18.2 <4.0.0'
+  sdk: ">=2.18.2 <3.22.2"
   flutter: ">=1.17.0"
 
 dependencies:
